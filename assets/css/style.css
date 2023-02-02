@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: green;
+	color: white;
+
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+}
+
+.box div {
+	width: 45%;
+	height: 80vh;
+
+	margin: auto;
+}
+
+.box .first {
+	background-color: red;
+}
+
+.box .second {
+	background-color: blue;
+}
